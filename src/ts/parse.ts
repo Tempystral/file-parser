@@ -1,4 +1,4 @@
-import { ByteReader } from "./reader";
+import { ByteReader } from "./reader.js";
 import {
   ClutInfo,
   ColourWithAlpha,
@@ -8,7 +8,7 @@ import {
   PixelInfo,
   PixelMode,
   TimImage,
-} from "./types";
+} from "./types.js";
 
 /**
  * Given a number `input`, pulls out `bits` information, starting from bit
