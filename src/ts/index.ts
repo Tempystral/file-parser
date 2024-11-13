@@ -1,2 +1,2 @@
-export { parse } from "./parse.js";
-export type { TimImage } from "./types.js";
+export { TIMParser } from "./parser/tim";
+export type { FileParser, TimImage } from "./types";
